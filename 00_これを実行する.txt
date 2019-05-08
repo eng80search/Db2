@@ -1,0 +1,7 @@
+--Csvファイルをインポート
+--注意：呼び出されるImportCsv.sqlにて対象ケースだけコメントを外す。
+db2 -f d:\work\ri\ImportCsv.sql
+db2 -f d:\work\ri\ExportMaster.sql
+db2 -f d:\work\ri\ImportCsv.sql
+db2 -f d:\work\ri\00_ExportMesaiTable.sql
+db2 -f d:\work\ri\明細一括登録作業用クエリ.sql
